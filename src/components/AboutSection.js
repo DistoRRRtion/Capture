@@ -10,11 +10,11 @@ const AboutSection = () => {
           </div>
           <div className='hide'>
             <h2>
-              your <span>dreams</span>
+              your <span>dreams</span> come
             </h2>
           </div>
           <div className='hide'>
-            <h2>come true.</h2>
+            <h2>true.</h2>
           </div>
           <p>
             Contact us for any photography or videography ideas that you have.
