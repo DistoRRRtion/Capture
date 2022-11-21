@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
+
 const GlobalStyle = createGlobalStyle`
 
     *{
@@ -42,6 +43,7 @@ const GlobalStyle = createGlobalStyle`
 
     h4 {
         font-weight: bold; 
+        font-size: 2rem;
     }
 
     span {
@@ -59,9 +61,6 @@ const GlobalStyle = createGlobalStyle`
     a {
         font-size: 1.1rem;
     }
-
-  
-
 `;
 
 export default GlobalStyle;
