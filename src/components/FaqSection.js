@@ -84,7 +84,6 @@ const FAQ = styled(About)`
         padding: 1rem 0rem;
       }
     }
-
 `;
 
 export default FaqSection;
