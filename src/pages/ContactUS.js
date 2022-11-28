@@ -3,14 +3,15 @@ import styled from "styled-components";
 const ContactUs = () => {
   return (
     <ContactUsCont>
-      <h1>Contact Us</h1>
+      <h1>Page not working</h1>
     </ContactUsCont>
   )
 }
 
 const ContactUsCont = styled.div`
-  background-color: red;
   height: 90vh;
+  background: orange;
+  font-size: 50px;
 `;
 
 export default ContactUs;
