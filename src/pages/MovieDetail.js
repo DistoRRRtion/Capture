@@ -42,16 +42,18 @@ const Details = styled.div`
   color: white;
 `;
 
-const  HeadLine = styled.div`
+const HeadLine = styled.div`
   min-height: 90vh;
   padding-top: 20vh;
   position: relative;
+
   h2 {
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -10%);
   }
+  
   img {
     width: 100%;
     height: 70vh;
@@ -69,15 +71,18 @@ const Awards = styled.div`
 
 const AwardStyle = styled.div`
   padding: 5rem;
+
   h3 {
     font-size: 2rem;
   }
+
   .line {
     width: 100%;
     background-color: #23d997;
     height: 0.5rem;
     margin: 1rem 0rem;
   }
+
   p {
     padding: 2rem 0rem;
   }
@@ -101,7 +106,6 @@ const Award = ({ title, description}) => {
       <div className='line'></div>
       <p>{description}</p>
     </AwardStyle>
-
   )
 }
 

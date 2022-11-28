@@ -12,6 +12,10 @@ const ContactUsCont = styled.div`
   height: 90vh;
   background: orange;
   font-size: 50px;
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
 `;
 
 export default ContactUs;
