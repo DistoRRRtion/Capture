@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from 'react-router-dom'
-// images
+// Images
 import athlete from '../img/athlete-small.png';
 import theracer from '../img/theracer-small.png';
 import goodtimes from '../img/goodtimes-small.png';
