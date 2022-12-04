@@ -9,9 +9,9 @@ import GlobalStyle from './components/GlobalStyle';
 import Nav from './components/Nav';
 // import router
 import { Route, Routes, useLocation } from 'react-router-dom';
-
 // Animation
 import { AnimatePresence } from 'framer-motion';
+
 
 function App() {
 const location = useLocation();

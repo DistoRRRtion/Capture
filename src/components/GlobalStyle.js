@@ -18,7 +18,6 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Inter', sans-serif;
         /* font-family: 'Lobster', sans-serif; */
         overflow-x: hidden;
-
     }
     button {
         font-weight: bold;

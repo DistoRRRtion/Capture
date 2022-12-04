@@ -74,26 +74,26 @@ const Awards = styled.div`
   justify-content: space-around;
   @media (max-width: 1300px) {
     display: block;
-    margin: 2rem 2rem;
+    margin: 2rem 2rem;  
   }
 `;
 
 const AwardStyle = styled.div`
   padding: 5rem;
-
   h3 {
     font-size: 2rem;
   }
-
   .line {
     width: 100%;
     background-color: #23d997;
     height: 0.5rem;
     margin: 1rem 0rem;
   }
-
   p {
     padding: 2rem 0rem;
+  }
+  @media (max-width: 1300px) {
+    padding: 3rem;  
   }
 `;
 
