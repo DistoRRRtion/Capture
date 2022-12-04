@@ -2,7 +2,7 @@
 import styled from "styled-components";
 import { About } from "../styles";
 import Toggle from './Toggle';
-import { AnimateSharedLayout } from 'framer-motion';
+import { LayoutGroup } from 'framer-motion';
 import { useScroll } from './UseScroll';
 import { scrollReveal } from '../animation';
 
@@ -16,7 +16,7 @@ const FaqSection = () => {
       <h2>
         Any Questions? <span>FAQ</span>
       </h2>
-      <AnimateSharedLayout>
+      <LayoutGroup>
         <Toggle title='How do I Start?'>
           <div className='answer'>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -50,7 +50,7 @@ const FaqSection = () => {
             </p>
           </div>
         </Toggle>
-      </AnimateSharedLayout>
+      </LayoutGroup>
     </FAQ>
   );
 };

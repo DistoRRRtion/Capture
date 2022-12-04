@@ -13,6 +13,8 @@ const GlobalStyle = createGlobalStyle`
         background-color: #1b1b1b;
         font-family: 'Inter', sans-serif;
         /* font-family: 'Lobster', sans-serif; */
+        overflow-x: hidden;
+
     }
 
     button {
