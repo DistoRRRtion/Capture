@@ -3,7 +3,7 @@
 
 ## Small portfolio site for a non-existent videography company.
 
-### You can see Capture here. [🎥](https://capture-vladimir.netlify.app/)
+### You can see Capture [here.](https://capture-vladimir.netlify.app/)
 
 ___
 
