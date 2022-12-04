@@ -13,6 +13,7 @@ export const About = styled(motion.div)`
 		padding: 2rem;
 		text-align: center;
 	}
+	background-color: red;
 `;
 
 export const Description = styled.div`
